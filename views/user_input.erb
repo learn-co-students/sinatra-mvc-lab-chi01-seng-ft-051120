@@ -2,10 +2,17 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Latinizer Input</title>
   </head>
   <body>
-    <h1>Pig Latinizer</h1>
-  
+    <h1>Pig Latinizer!</h1>
+    <h2>What would you like to have translated into pig latin?</h2>
+    <body>
+      <form method ="POST" action="/piglatinize">
+        <label for="phrase">Enter your phrase:</label> 
+        <input type="text" id="phrase" name='user_phrase'>
+        <input type="submit">
+      </form>
+
   </body>
 </html>
